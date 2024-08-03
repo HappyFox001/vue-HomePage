@@ -14,12 +14,8 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.4.30",
+    "vue-loader": "^17.4.2"
+  }
 }
