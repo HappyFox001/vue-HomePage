@@ -51,7 +51,7 @@ if(windowWidth < 840) {
         <div class="info-right">
           <span>出生年月： 2004.03.27/白羊座</span>
           <span>个人网站： <a href="https://happyfox001.github.io/personal-blog/">https://happyfox001.github.io/personal-blog/</a></span>
-          <span>GitHub： <a href="https://github.com/penglongli">https://github.com/penglongli</a></span>
+          <span>GitHub: <a href="https://github.com/penglongli">https://github.com/penglongli</a></span>
         </div>
         <div class="clear-fix"></div>
       </div>
@@ -63,7 +63,7 @@ if(windowWidth < 840) {
       <span class="long-line"></span>
       <div class="detail-list">
         <ul>
-          <li>Web开发： Java(精通)/Spring Framework/MyBatis/Struts2/Hibernate/Apache Shiro/Go(入门);</li>
+          <li>Web开发: Java(精通)/Spring Framework/MyBatis/Struts2/Hibernate/Apache Shiro/Go(入门);</li>
           <li>前端： HTML(5)标准/CSS(3)标准/JavaScript/jQueyr/gulp/Less/AngularJS;</li>
           <li>数据库： MySQL/MSSQL;</li>
           <li>服务器相关： 熟悉Linux基本命令/nginx(使用)/Bash</li>

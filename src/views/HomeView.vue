@@ -24,16 +24,32 @@
     </div>
     <div class="right">
       <div class="right-header">
-        <div class="right-welcome"><p class="right-title">Welcome to My World</p></div>
-        <div class="right-description">⏳&ensp;<span>Geek Enthusiast and Web3 Idealist</span></div>
-        <div class="right-description">📝&ensp;<span>Do something cool and change the word!</span></div>
-        <div class="right-about">
-          <a class="right-icon" href="https://github.com/"><img alt="github" src="../assets/image/home-image/github.svg"></a>
-          <a class="right-icon" href="https://im.qq.com/"><img alt="qq" src="../assets/image/home-image/qq.svg"></a>
-          <a class="right-icon" href="https://discord.com/"><img alt="discord" src="../assets/image/home-image/discord.svg"></a>
+        <div class="right-header-left">
+          <div class="right-welcome"><p class="right-title">Welcome to My World</p></div>
+          <div class="right-description first-description">⏳&ensp;<span>Geek Enthusiast and Web3 Idealist</span></div>
+          <div class="right-description second-description">📝&ensp;<span>Do something cool and change the word!</span></div>
+          <div class="right-about">
+            <a class="right-icon" href="https://github.com/"><img alt="github" src="../assets/image/home-image/github.svg"></a>
+            <a class="right-icon" href="https://im.qq.com/"><img alt="qq" src="../assets/image/home-image/qq.svg"></a>
+            <a class="right-icon" href="https://discord.com/"><img alt="discord" src="../assets/image/home-image/discord.svg"></a>
+        </div>
+      
+      </div>
+      <div class="svg-container">
+          <img src="../assets/image/home-image/snake-Light.svg" alt="Example SVG" class="custom-svg" />
         </div>
       </div>
       <div class="right-content">
+        <div class="personal-info">
+          <p>🎓 武汉大学区块链协会投研部部长</p>
+          <p>💻 Trustless Lab 投研员</p>
+          <p>📘 专业：通信工程</p>
+          <p>⚙️ 技能：机器学习、深度学习、前端开发、大数据处理、项目投研</p>
+          <p>⭐️ 简要经历：LYS Lab Web3自媒体创业 + 多次团队合作经验 + 省级科研项目结项</p>
+          <p>🚀 兴趣：All in Web 3</p>
+        </div>
+      </div>
+      <div class="right-bottom">
         <div class="right-menu">
           <span class="right-title">I SAY</span>
         </div>
@@ -74,8 +90,6 @@
               <img src="../assets/image/home-image/project.svg" alt="">
             </div>
           </router-link>
-
-
         </div>
 
       </div>
@@ -123,7 +137,6 @@ body, html {
   height: 100%;
   background-color: #222; /* 设置整体背景颜色为深色 */
 }
-
 .main {
   position: absolute;
   display: flex;
@@ -134,7 +147,6 @@ body, html {
   border-radius: 15px;
   overflow: hidden;
 }
-
 .left {
   overflow-y: scroll;
   width: 230px;
@@ -148,11 +160,9 @@ body, html {
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   padding: 20px;
 }
-
 .left::-webkit-scrollbar {
   display: none;
 }
-
 .left-logo {
   background-image: url("../assets/image/home-image/logo.jpg");
   width: 80%;
@@ -177,7 +187,6 @@ body, html {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
-
 .left-place::before {
   content: '';
   position: absolute;
@@ -283,7 +292,8 @@ body, html {
   background-color: #282c34;
   background-image: url("../assets/image/home-image/right-picture.png");
   background-repeat: no-repeat;
-  opacity: 60%;
+  background-size: cover; 
+  background-position: center center; /* 将图片居中 */
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -291,23 +301,31 @@ body, html {
   border-left: 2px solid rgba(255, 255, 255, 0.1);
   color: #fff;
   font-size: 24px;
+  opacity: 60%;
 }
-.right-header{
+
+.right-header {
+  display: flex;
+  justify-content: space-between; 
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.right-header-left {
   display: flex;
   flex-direction: column;
   position: relative;
-  top:0;
-  left: 0;
-  height: 80%;
-  width: 100%;
 }
+
 .right-welcome{
   position: relative ;
-  top:30px;
+  top:15px;
   height: 40%;
   width: 100%;
   left: 40px;
-  margin-bottom: -15px;
+  margin-bottom: 0;
 }
 .right-title {
   text-align: left;
@@ -335,8 +353,13 @@ body, html {
 }
 .right-description{
   margin-left: 30px;
-  margin-top: 10px;
   text-align: left;
+}
+.first-description{
+  margin-top: -10px;
+}
+.second-description{
+  margin-top: 20px;
 }
 .right-description span{
   font-family: 'Dancing Script', cursive;
@@ -374,7 +397,7 @@ body, html {
 }
 .right-about{
   position: relative;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 20px;
   text-align: left;
 
@@ -393,11 +416,29 @@ body, html {
   transform: scale(1.2); /* Increase the size on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
-.right-content{
+.svg-container {
+  margin-top: 40px;
+  margin-left: -25px;
+
+}
+.personal-info {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: black;
+  font-size: 24px;
+  line-height: 1.8;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: left; 
+  font-family: '天行白鸽', serif;
+}
+
+
+.right-bottom{
   display: flex;
   flex-direction: column;
   position: relative;
-  top:0;
+  top:60px;
   left: 0;
   height: 100%;
   width: 100%;

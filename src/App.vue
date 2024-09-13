@@ -1,5 +1,4 @@
 <template>
-  <router-link v-bind:to="{name:'home'}"/>
   <router-view/>
 </template>
 
@@ -15,4 +14,5 @@
 
 </style>
 <script>
+
 </script>

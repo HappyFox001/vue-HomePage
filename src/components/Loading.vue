@@ -21,7 +21,7 @@ export default {
 }
 @font-face {
   font-family: '天行白鸽';
-  src: url('@/fonts/字魂白鸽天行体(商用需授权).ttf') format('truetype');
+  src: url('../fonts/字魂白鸽天行体(商用需授权).ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -60,7 +60,7 @@ export default {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  background-image: url(../../../css测试/image/background.png);
+  background-image: url('../assets/image/home-image/background.png');
   font-weight: 15;
   font-size: 50px;
   font-family: "天行白鸽",serif;
