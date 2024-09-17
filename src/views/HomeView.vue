@@ -72,15 +72,6 @@
               <img src="../assets/image/home-image/blog.svg" alt="">
             </div>
           </router-link>
-          <router-link class="project-link project-item" v-bind:to="{name:'essay'}">
-            <div class="project-item-left">
-              <h1>深思</h1>
-              <p>没有被思想侵略的荒原</p>
-            </div>
-            <div class="project-item-right">
-              <img src="../assets/image/home-image/write.svg" alt="">
-            </div>
-          </router-link>
           <router-link class="project-link project-item" v-bind:to="{name:'project'}">
             <div class="project-item-left">
               <h1>项目</h1>

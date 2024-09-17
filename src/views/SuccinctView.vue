@@ -28,11 +28,11 @@ if(windowWidth < 840) {
           </ul>
         </div>
         <div class="header-right">
-          <ul>
+          <!-- <ul>
             <li>期望职位： 暂无</li>
             <li>期望城市： 暂无</li>
             <li>当前坐标： 武汉</li>
-          </ul>
+          </ul> -->
         </div>
         <div class="clear-fix"></div>
       </div>
@@ -63,37 +63,42 @@ if(windowWidth < 840) {
       <span class="long-line"></span>
       <div class="detail-list">
         <ul>
-          <li>Web开发: Java(精通)/Spring Framework/MyBatis/Struts2/Hibernate/Apache Shiro/Go(入门);</li>
-          <li>前端： HTML(5)标准/CSS(3)标准/JavaScript/jQueyr/gulp/Less/AngularJS;</li>
-          <li>数据库： MySQL/MSSQL;</li>
-          <li>服务器相关： 熟悉Linux基本命令/nginx(使用)/Bash</li>
+          <li>前端： HTML(5)标准/CSS(3)标准/JavaScript/Vite/Vue3;</li>
+          <li>深度学习： Python/Tableau/PyTorch/Optuna</li>
+          <li>数据库： MySQL;</li>
+          <li>服务器相关： 熟悉Linux基本命令/nginx(使用)/Powershell/Prometheus;</li>
         </ul>
       </div>
     </div>
 
     <div class="work-experience">
       <span class="icon"></span>
-      <span class="subtitle">工作经历</span>
+      <span class="subtitle">学习经历</span>
       <span class="long-line"></span>
       <div class="detail-list">
         <div class="company">
-          <h2>XX公司（xxxx年xx月-xxxx年xx月）</h2>
-          <span class="tools">开发工具： Spring Framework + Shiro + Hibernate + MySQL + nginx + IDEA(IDE)</span>
-
-          <span class="project-title">xx项目</span>
+          <h2>科研经历</h2>
+          <span class="project-title">基于AI和IMU的3D皮影驱动模型</span>
+          <span class="tools">开发工具： PyQt5 + PyTorch + Yolov8 + MySQL + nginx + pycharm(IDE)</span>
           <span class="project-intro">
-                    我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。
+                    我在此项目负责了GUI设计、视觉算法复现、皮影控制程序编写等，取得省级科研结项。
                 </span>
         </div>
 
         <div class="company">
-          <h2>XX公司（xxxx年xx月-xxxx年xx月）</h2>
-          <span class="tools">开发工具： Spring Framework + Shiro + Hibernate + MySQL + nginx + IDEA(IDE)</span>
-
-          <span class="project-title">xx项目</span>
+          <h2>行业经历</h2>
+          <span class="project-title">LYS Lab web3 创业</span>
           <span class="project-intro">
-                    我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。
-                </span>
+                    2024年4月共同创办LYS Lab，负责空投课程、网络机器人识别技术等。
+          </span>      
+          <span class="project-title">Trustless Lab 投研实习</span>
+          <span class="project-intro">
+                    2024年6月入职Trustless Lab 投资研究实习。
+          </span>      
+          <span class="project-title">武汉大学区块链协会投研部部长</span>
+          <span class="project-intro">
+                    2024年7月任职武汉大学区块链协会投研部部长职位，负责及时向社团提供行业最前沿的信息和社团研究报告撰写。
+          </span>
         </div>
       </div>
     </div>
@@ -121,14 +126,16 @@ if(windowWidth < 840) {
     <div class="honor-eva">
       <div class="honor-reward">
         <span class="icon"></span>
-        <span class="subtitle">荣誉奖励</span>
+        <span class="subtitle">参与比赛</span>
         <span class="long-line short-line"></span>
         <div class="detail-list">
           <ul>
-            <li>武汉大学2022社团活动积极分子</li>
-            <li>大学生创新创业省级立项</li>
-            <li>武汉大学京天杯智能机器人导航冠军</li>
-            <li>华中杯数学建模省级三等奖</li>
+            <li>省级科研项目</li>
+            <li>武汉大学京天杯智能机器人导航</li>
+            <li>华中杯数学建模</li>
+            <li>全国大学生数学建模</li>
+            <li>高校算法挑战杯</li>
+            <li>湖北省机器人格斗大赛</li>
           </ul>
         </div>
       </div>
@@ -139,9 +146,8 @@ if(windowWidth < 840) {
         <div class="detail-list">
           <ul>
             <li>喜欢折腾，善于折腾</li>
-            <li>工作认真，愿意尝试新东西，对新东西有好奇心</li>
-            <li>良好的语言沟通能力，能够积极主动交流以便解决问题</li>
-            <li>性格外向开朗，喜欢运动，喜欢打篮球，能够独立解决问题</li>
+            <li>良好的语言沟通能力，团队合作经验丰富</li>
+            <li>性格外向开朗，能够独立解决问题</li>
           </ul>
         </div>
       </div>
